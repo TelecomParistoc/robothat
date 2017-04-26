@@ -1,0 +1,3 @@
+[submodule "library-elec"]
+	path = libraries
+	url = git@github.com:TelecomParistoc/library-elec.git
