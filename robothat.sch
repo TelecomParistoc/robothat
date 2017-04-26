@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24825,7 +24825,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="130K"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="470R"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="470R"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="POWER" library="con-phoenix-500" deviceset="MSTBV2" device=""/>
 <part name="IC3" library="linear" deviceset="78L*SMD" device="" technology="05"/>
@@ -24938,7 +24937,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="P+21" library="supply1" deviceset="VCC" device=""/>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
 <part name="P+23" library="supply1" deviceset="VCC" device=""/>
-<part name="AGND10" library="supply1" deviceset="AGND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD3" library="supply1" deviceset="VDD" device=""/>
@@ -25000,7 +24998,6 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="R5" gate="G$1" x="365.76" y="165.1" rot="R90"/>
 <instance part="R6" gate="G$1" x="424.18" y="177.8" rot="R180"/>
 <instance part="R7" gate="G$1" x="424.18" y="185.42" rot="R180"/>
-<instance part="C3" gate="G$1" x="378.46" y="190.5" rot="R180"/>
 <instance part="GND4" gate="1" x="24.13" y="130.81"/>
 <instance part="POWER" gate="-1" x="281.94" y="193.04" rot="R270"/>
 <instance part="POWER" gate="-2" x="276.86" y="193.04" rot="R270"/>
@@ -25157,8 +25154,8 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="+3V14" gate="G$1" x="215.9" y="53.34"/>
 <instance part="GND16" gate="1" x="215.9" y="35.56"/>
 <instance part="C13" gate="G$1" x="251.46" y="43.18" rot="R180"/>
-<instance part="AXFUSE" gate="G$1" x="208.28" y="91.44" rot="R90"/>
-<instance part="AXFUSE1" gate="G$1" x="213.36" y="78.74" rot="R90"/>
+<instance part="AXFUSE" gate="G$1" x="147.32" y="157.48"/>
+<instance part="AXFUSE1" gate="G$1" x="148.59" y="165.1"/>
 <instance part="AGND1" gate="VR1" x="241.3" y="35.56"/>
 <instance part="AGND2" gate="VR1" x="251.46" y="35.56"/>
 <instance part="AGND3" gate="VR1" x="332.74" y="101.6"/>
@@ -25176,7 +25173,6 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="P+21" gate="VCC" x="383.54" y="200.66"/>
 <instance part="P+22" gate="VCC" x="254" y="177.8"/>
 <instance part="P+23" gate="VCC" x="256.54" y="114.3"/>
-<instance part="AGND10" gate="VR1" x="378.46" y="182.88"/>
 <instance part="VDD1" gate="G$1" x="330.2" y="142.24"/>
 <instance part="VDD2" gate="G$1" x="292.1" y="187.96"/>
 <instance part="VDD3" gate="G$1" x="375.92" y="127"/>
@@ -25533,14 +25529,8 @@ RJ45 Jack connectors&lt;br&gt;
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VOC"/>
-<wire x1="213.36" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
 <label x="195.58" y="101.6" size="1.778" layer="95"/>
-<pinref part="AXFUSE1" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="83.82" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="96.52" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
-<junction x="210.82" y="101.6"/>
+<wire x1="213.36" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AX12_TX_P" class="0">
@@ -25823,8 +25813,8 @@ RJ45 Jack connectors&lt;br&gt;
 </segment>
 <segment>
 <pinref part="AXFUSE1" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
-<label x="195.58" y="73.66" size="1.778" layer="95" ratio="12"/>
+<wire x1="143.51" y1="165.1" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
+<label x="129.54" y="165.1" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 <net name="RPI_RX" class="0">
@@ -25840,29 +25830,35 @@ RJ45 Jack connectors&lt;br&gt;
 </segment>
 <segment>
 <pinref part="AXFUSE" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="86.36" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
-<label x="195.58" y="86.36" size="1.778" layer="95" ratio="12"/>
+<wire x1="142.24" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<label x="129.54" y="157.48" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 <net name="AX12_TX" class="0">
 <segment>
 <pinref part="AX12USB" gate="-1" pin="1"/>
-<wire x1="154.94" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <label x="139.7" y="149.86" size="1.778" layer="95"/>
+<pinref part="AXFUSE" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="157.48" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<junction x="152.4" y="149.86"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VOD"/>
 <wire x1="213.36" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <label x="198.12" y="99.06" size="1.778" layer="95"/>
-<pinref part="AXFUSE" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="96.52" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AX12_RX" class="0">
 <segment>
 <pinref part="AX12USB" gate="-2" pin="1"/>
-<wire x1="154.94" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="147.32" x2="153.67" y2="147.32" width="0.1524" layer="91"/>
 <label x="139.7" y="147.32" size="1.778" layer="95"/>
+<pinref part="AXFUSE1" gate="G$1" pin="2"/>
+<wire x1="153.67" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="165.1" x2="153.67" y2="147.32" width="0.1524" layer="91"/>
+<junction x="153.67" y="147.32"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VIC"/>
@@ -26325,11 +26321,6 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="248.92" y="73.66"/>
 <pinref part="AGND9" gate="VR1" pin="AGND"/>
 </segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="378.46" y1="187.96" x2="378.46" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="AGND10" gate="VR1" pin="AGND"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -26364,13 +26355,9 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="195.58" x2="365.76" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="198.12" x2="378.46" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="198.12" x2="383.54" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="VCC"/>
-<wire x1="378.46" y1="198.12" x2="383.54" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="182.88" x2="383.54" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="378.46" y1="195.58" x2="378.46" y2="198.12" width="0.1524" layer="91"/>
-<junction x="378.46" y="198.12"/>
 <pinref part="P+21" gate="VCC" pin="VCC"/>
 <junction x="383.54" y="198.12"/>
 </segment>
@@ -26457,6 +26444,21 @@ RJ45 Jack connectors&lt;br&gt;
 <approved hash="208,1,383.54,198.12,VCC,sup,,,,"/>
 <approved hash="208,1,254,175.26,VCC,sup,,,,"/>
 <approved hash="208,1,256.54,111.76,VCC,sup,,,,"/>
+<approved hash="113,1,15.0629,185.42,LOGIC,,,,,"/>
+<approved hash="113,1,281.94,196.605,POWER,,,,,"/>
+<approved hash="113,1,18.732,147.32,RPI2,,,,,"/>
+<approved hash="113,1,57.5417,147.32,RPI,,,,,"/>
+<approved hash="113,1,117.584,149.86,SERIAL,,,,,"/>
+<approved hash="113,1,161.969,149.86,AX12USB,,,,,"/>
+<approved hash="113,1,60.8598,101.6,SENSORS,,,,,"/>
+<approved hash="113,1,61.5694,60.96,SENSORS1,,,,,"/>
+<approved hash="113,1,61.5694,20.32,SENSORS2,,,,,"/>
+<approved hash="113,1,149.756,109.22,ROOF,,,,,"/>
+<approved hash="113,1,217.669,187.96,BATTLV,,,,,"/>
+<approved hash="113,1,395.341,119.38,MOTOR1,,,,,"/>
+<approved hash="113,1,441.061,119.38,MOTOR2,,,,,"/>
+<approved hash="113,1,135.848,38.2312,JP1,,,,,"/>
+<approved hash="113,1,118.559,30.48,SPI,,,,,"/>
 </errors>
 </schematic>
 </drawing>
