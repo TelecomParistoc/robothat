@@ -24842,7 +24842,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="AX12USB" library="con-amp" deviceset="SMDTOP-4" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="SENSORS" library="con-amp" deviceset="SMDTOP-4" device=""/>
+<part name="SENS1" library="con-amp" deviceset="SMDTOP-4" device=""/>
 <part name="12V" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="5V" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
@@ -24854,7 +24854,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD523"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="SENSORS1" library="con-amp" deviceset="SMDTOP-4" device=""/>
+<part name="SENS2" library="con-amp" deviceset="SMDTOP-4" device=""/>
 <part name="12V1" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="5V1" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
@@ -24866,7 +24866,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="D4" library="diode" deviceset="DIODE-" device="SOD523"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="SENSORS2" library="con-amp" deviceset="SMDTOP-4" device=""/>
+<part name="SENS3" library="con-amp" deviceset="SMDTOP-4" device=""/>
 <part name="12V2" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
 <part name="P+17" library="supply1" deviceset="+12V" device=""/>
 <part name="5V2" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
@@ -24918,7 +24918,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="AXFUSE" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
+<part name="AXF" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
 <part name="AXFUSE1" library="resistor" deviceset="R-US_" device="R0805" value="0R"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
@@ -25032,10 +25032,10 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="AX12USB" gate="-3" x="157.48" y="144.78"/>
 <instance part="AX12USB" gate="-4" x="157.48" y="142.24"/>
 <instance part="GND7" gate="1" x="152.4" y="137.16"/>
-<instance part="SENSORS" gate="-1" x="55.88" y="101.6"/>
-<instance part="SENSORS" gate="-2" x="55.88" y="99.06"/>
-<instance part="SENSORS" gate="-3" x="55.88" y="96.52"/>
-<instance part="SENSORS" gate="-4" x="55.88" y="93.98"/>
+<instance part="SENS1" gate="-1" x="55.88" y="101.6"/>
+<instance part="SENS1" gate="-2" x="55.88" y="99.06"/>
+<instance part="SENS1" gate="-3" x="55.88" y="96.52"/>
+<instance part="SENS1" gate="-4" x="55.88" y="93.98"/>
 <instance part="12V" gate="G$1" x="43.18" y="109.22" rot="R90"/>
 <instance part="P+8" gate="1" x="43.18" y="119.38"/>
 <instance part="5V" gate="G$1" x="53.34" y="109.22" rot="R90"/>
@@ -25047,10 +25047,10 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="+3V3" gate="G$1" x="27.94" y="96.52"/>
 <instance part="D1" gate="G$1" x="27.94" y="101.6" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="27.94" y="109.22"/>
-<instance part="SENSORS1" gate="-1" x="55.88" y="60.96"/>
-<instance part="SENSORS1" gate="-2" x="55.88" y="58.42"/>
-<instance part="SENSORS1" gate="-3" x="55.88" y="55.88"/>
-<instance part="SENSORS1" gate="-4" x="55.88" y="53.34"/>
+<instance part="SENS2" gate="-1" x="55.88" y="60.96"/>
+<instance part="SENS2" gate="-2" x="55.88" y="58.42"/>
+<instance part="SENS2" gate="-3" x="55.88" y="55.88"/>
+<instance part="SENS2" gate="-4" x="55.88" y="53.34"/>
 <instance part="12V1" gate="G$1" x="43.18" y="68.58" rot="R90"/>
 <instance part="P+12" gate="1" x="43.18" y="78.74"/>
 <instance part="5V1" gate="G$1" x="53.34" y="68.58" rot="R90"/>
@@ -25062,10 +25062,10 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="+3V5" gate="G$1" x="27.94" y="55.88"/>
 <instance part="D4" gate="G$1" x="27.94" y="60.96" rot="R90"/>
 <instance part="+3V6" gate="G$1" x="27.94" y="68.58"/>
-<instance part="SENSORS2" gate="-1" x="55.88" y="20.32"/>
-<instance part="SENSORS2" gate="-2" x="55.88" y="17.78"/>
-<instance part="SENSORS2" gate="-3" x="55.88" y="15.24"/>
-<instance part="SENSORS2" gate="-4" x="55.88" y="12.7"/>
+<instance part="SENS3" gate="-1" x="55.88" y="20.32"/>
+<instance part="SENS3" gate="-2" x="55.88" y="17.78"/>
+<instance part="SENS3" gate="-3" x="55.88" y="15.24"/>
+<instance part="SENS3" gate="-4" x="55.88" y="12.7"/>
 <instance part="12V2" gate="G$1" x="43.18" y="27.94" rot="R90"/>
 <instance part="P+17" gate="1" x="43.18" y="38.1"/>
 <instance part="5V2" gate="G$1" x="53.34" y="27.94" rot="R90"/>
@@ -25154,7 +25154,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="+3V14" gate="G$1" x="215.9" y="53.34"/>
 <instance part="GND16" gate="1" x="215.9" y="35.56"/>
 <instance part="C13" gate="G$1" x="251.46" y="43.18" rot="R180"/>
-<instance part="AXFUSE" gate="G$1" x="147.32" y="157.48"/>
+<instance part="AXF" gate="G$1" x="147.32" y="157.48"/>
 <instance part="AXFUSE1" gate="G$1" x="148.59" y="165.1"/>
 <instance part="AGND1" gate="VR1" x="241.3" y="35.56"/>
 <instance part="AGND2" gate="VR1" x="251.46" y="35.56"/>
@@ -25264,17 +25264,17 @@ RJ45 Jack connectors&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="SENSORS" gate="-4" pin="1"/>
+<pinref part="SENS1" gate="-4" pin="1"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="SENSORS1" gate="-4" pin="1"/>
+<pinref part="SENS2" gate="-4" pin="1"/>
 <wire x1="53.34" y1="48.26" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="SENSORS2" gate="-4" pin="1"/>
+<pinref part="SENS3" gate="-4" pin="1"/>
 <wire x1="53.34" y1="7.62" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -25829,7 +25829,7 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="149.86" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AXFUSE" gate="G$1" pin="1"/>
+<pinref part="AXF" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="129.54" y="157.48" size="1.778" layer="95" ratio="12"/>
 </segment>
@@ -25839,7 +25839,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="AX12USB" gate="-1" pin="1"/>
 <wire x1="154.94" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <label x="139.7" y="149.86" size="1.778" layer="95"/>
-<pinref part="AXFUSE" gate="G$1" pin="2"/>
+<pinref part="AXF" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="157.48" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <junction x="152.4" y="149.86"/>
@@ -25868,7 +25868,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="SENSORS" gate="-1" pin="1"/>
+<pinref part="SENS1" gate="-1" pin="1"/>
 <pinref part="12V" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
@@ -25880,7 +25880,7 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="N$12" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="SENSORS" gate="-2" pin="1"/>
+<pinref part="SENS1" gate="-2" pin="1"/>
 <wire x1="40.64" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25889,7 +25889,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="86.36" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SENSORS" gate="-3" pin="1"/>
+<pinref part="SENS1" gate="-3" pin="1"/>
 <wire x1="43.18" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25925,7 +25925,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="SENSORS1" gate="-1" pin="1"/>
+<pinref part="SENS2" gate="-1" pin="1"/>
 <pinref part="12V1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="60.96" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
@@ -25937,7 +25937,7 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="N$11" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="SENSORS1" gate="-2" pin="1"/>
+<pinref part="SENS2" gate="-2" pin="1"/>
 <wire x1="40.64" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25946,13 +25946,13 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="45.72" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="SENSORS1" gate="-3" pin="1"/>
+<pinref part="SENS2" gate="-3" pin="1"/>
 <wire x1="43.18" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="SENSORS2" gate="-1" pin="1"/>
+<pinref part="SENS3" gate="-1" pin="1"/>
 <pinref part="12V2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="20.32" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
@@ -25964,7 +25964,7 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="N$27" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="SENSORS2" gate="-2" pin="1"/>
+<pinref part="SENS3" gate="-2" pin="1"/>
 <wire x1="40.64" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25973,7 +25973,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="5.08" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="5.08" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="SENSORS2" gate="-3" pin="1"/>
+<pinref part="SENS3" gate="-3" pin="1"/>
 <wire x1="43.18" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
