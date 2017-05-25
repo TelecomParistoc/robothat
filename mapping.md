@@ -7,9 +7,9 @@ Describes pins mapping between electronics and software.
 | Button 1 | 31 | 22 | N/C | | 
 | Button 2 | 32 | 26 | | | 
 | Button 3 | 29 | 21 | | |
-| LED 1 | 28 | 31 | | |
-| LED 2 | 27 | 30 | | |
-| LED 3 | 26 | 11 | | |
+| LED 1 | 28 | 31 | | Green LED |
+| LED 2 | 27 | 30 | | Yellow LED |
+| LED 3 | 26 | 11 | | Red LED|
 | Start Jack | 24 | 10 | Start | Start |
 | Sensor 1 |  22 | 6 | color sensor <COLOR> | rear sides |
 | Sensor 2 | 18 | 5 | color sensor <COLOR> | rear center |
