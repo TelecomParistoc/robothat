@@ -4,9 +4,9 @@ Describes pins mapping between electronics and software.
 
 | Name | Header pin | WiringPi pin | Small robot instance | Big robot instance |
 |------|------------|--------------|----------------------|--------------------|
-| Button 1 | 31 | 22 | N/C | | 
-| Button 2 | 32 | 26 | | | 
-| Button 3 | 29 | 21 | | |
+| Button 1 | 31 | 22 | N/C | Team color |
+| Button 2 | 32 | 26 | | Test / match mode|
+| Button 3 | 29 | 21 | | Mode 1 / mode 2|
 | LED 1 | 28 | 31 | | Green LED |
 | LED 2 | 27 | 30 | | Yellow LED |
 | LED 3 | 26 | 11 | | Red LED|
@@ -17,5 +17,5 @@ Describes pins mapping between electronics and software.
 | Sensor 4 | 15 | 3 | | N/C |
 | Sensor 5 | 13 | 2 | | front center |
 | Sensor 6 | 11 | 0 | | front sides |
-| Motor 1 | 12 | 1 | N/C | Belt (PWM !) |
-| Motor 2 | 7 | 7 | N/C | Canon |
+| Motor 1 | 12 | 1 | N/C | Shaker (PWM !) |
+| Motor 2 | 7 | 7 | N/C | N/C |
